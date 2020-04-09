@@ -1,0 +1,715 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1760px) {
+
+}
+@media only screen and (max-width : 1600px) {
+
+}
+@media only screen and (max-width : 1350px) {
+
+}
+@media only screen and (max-width : 1500px) {
+	.container{
+		max-width: 1140px;
+	}
+	.how-item{
+	    max-width: 195px;
+	    font-size: 19px;
+	}
+	.header-navig a {
+    	font-size: 16px;
+        padding-left: 32px;	
+	}
+	.logo img{
+		max-width: 180px;
+	}
+	.header-search {
+    	margin-left: 10px;
+	}
+	.logo {
+    	padding-top: 33px;
+	}
+	.main-list li a{
+		font-size: 18px;
+	}
+	.main-list li a {
+    	width: 270px;
+	}
+	.home-category-top p {
+    	font-size: 21px;
+    	margin-bottom: 5px;
+	}
+	.item-casino-pay-link a:nth-of-type(1), .item-casino-pay-link a:nth-of-type(2) {
+		width: 160px;
+	}
+	.item-casino-img-txt p{
+		font-size: 15px;
+	}
+	.item-casino-img-txt div {
+    	font-size: 40px;
+	}
+	.item-casino-txt:after{
+		right: 4px;
+	}
+	.item-casino-txt{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.check-container{
+		padding-left: 25px;
+	}
+	.five-things-txt h3{
+		font-size: 38px;
+	}
+	.player-bonus h2{
+		padding-top: 70px;
+		margin-bottom: 55px;
+	}
+	.player-bonus-item-txt{
+		padding-right: 85px;
+	}
+	.player-bonus-item-abs {
+		width: 80px;
+    	height: 40px;
+    	font-size: 18px;
+    	line-height: 40px;
+	}
+	.player-bonus-item-txt h3, .player-bonus-item h4, .player-bonus-item p {
+		font-size: 19px;
+	}
+	.answer-back h2{
+		margin-bottom: 70px;
+	}
+	.free-games-blo{
+		max-width: 212px;
+		width: 100%;
+	}
+	.free-games-blo img{
+		max-width: 100%;
+	}
+	.free-games-blo h4{
+		font-size: 16px;
+	}
+	#free-games-back{
+		min-height: inherit;
+		padding-bottom: 70px;
+	}
+	.footer-bottom-flex h4 {
+    	font-size: 21px;
+	}
+	.footer-bottom-flex li a {
+    	font-size: 16px;
+	}
+	.kind-rating-top{
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 1199px) {
+	.container {
+	    max-width: 960px;
+	}
+	.main-list li a {
+    	width: 225px;
+	}
+	.main-list li a {
+    	font-size: 16px;
+	}
+	.header-search{
+		display: none;
+	}
+	.header-lang {
+	    margin-left: 20px;
+	}
+	.free-games-blo {
+    	max-width: 177px;
+	}
+	.free-games-item h3{
+		font-size: 21px;
+	}
+	.free-games-link{
+		margin-top: 0px;
+	}
+	.footer-bottom-flex h4 {
+    	font-size: 16px;
+	}
+	.footer-bottom-flex li a{
+		font-size: 14px;
+	}
+	#footer-bottom{
+		padding-top: 30px;
+	}
+	footer{
+		margin-top: 20px;
+	}
+	footer h4{
+		font-size: 16px;
+	}
+	#accordion .ui-accordion-header{
+		font-size: 21px;
+		padding: 25px;
+	}
+	.answer-back h2 {
+    	margin-bottom: 40px;
+	}
+	#accordion .ui-accordion-content{
+		padding: 25px;
+		font-size: 16px;
+	}
+	#accordion .ui-accordion-content p{
+		margin-bottom: 10px;
+	}
+	.answer-back h2, .player-bonus h2, #how h2, .five-things h2, #kind h2, .why-home-main h2, .item-casino-txt h2{
+		font-size: 31px;
+	}
+	.how-item{
+		font-size: 16px;
+		max-width: 165px;
+	}
+	.ui-accordion-header:after{
+		top: 22px;
+	}
+	.kind-rating-item h3{
+		font-size: 28px;
+    	line-height: 87px;
+    	height: 80px;
+	}
+	.five-things h2{
+		margin-top: 80px;
+	}
+	.five-things-txt h3 {
+    	font-size: 31px;
+	}
+	.five-things-txt {
+    	padding-left: 170px;
+	}
+	.five-things-item-number{
+		left: 32px;
+	}
+	.kind-rating-top p {
+    	font-size: 31px;
+	}
+	#kind h2+p br{
+		display: none;
+	}
+	#time-home h2{
+		font-size: 70px;
+	}
+	#time-home h2+p {
+    	font-size: 16px;
+    	color: #fff;
+    	margin-top: -10px;
+    	padding-bottom: 34px;
+    	text-transform: uppercase;
+    	padding-top: 12px;
+	}
+	.item-casino-pay-link a:nth-of-type(1), .item-casino-pay-link a:nth-of-type(2) {
+    	width: 135px;
+	}
+	.check-container{
+		font-size: 14px;
+	}
+	.item-casino-pa-bottom-item img{
+		max-width: 100%;
+	}
+	.item-casino-img-txt p {
+    	font-size: 13px;
+	}
+	.item-casino-img-txt div {
+    	font-size: 34px;
+    	padding-top: 5px;
+	}
+}	
+
+@media only screen and (max-width : 991px) {
+	.container {
+   	 	max-width: 720px;
+	}
+	.breadcrumbs{
+		padding-top: 0;
+	}
+	.breadcrumbs:before{
+		top: -5px;
+	}
+	.header-main{
+		background-size: cover;
+		padding: 25px 0px;
+	}
+	.header-main h1{
+		font-size: 27px;
+    	padding-top: 14px;
+    	padding-bottom: 12px;		
+	}
+	.header-main h1+p{
+		font-size: 16px;
+	}
+	.header-main h1+p br{
+		display: none;
+	}
+	.home-category-main-top{
+		height: auto;
+		padding-bottom: 15px;
+	}
+	.home-category-top p {
+    	font-size: 18px;
+    }
+    .home-category-main-top-left{
+    	display: none;
+    }
+    .home-category-top h3{
+    	font-size: 21px;
+    	padding-bottom: 10px;
+    	padding-top: 20px;
+    }
+    .home-category-main-top-right{
+    	float: none;
+    	padding-top: 15px;
+    }
+    .home-category-sidebar{
+    	max-width: 320px;
+    }
+    .colapse-menu-button{
+    	display: inline-block;
+    	float: right;
+    	margin-top: 22px;
+    }
+    .header-right{
+    	display: none;
+    }
+    .header-navig li{
+    	margin-bottom: 20px;
+    	float: none;
+    }
+    .header-navig li a{
+    	font-size: 18px;
+    }
+    .header-lang{
+    	margin-left: 0px;
+    	padding-top: 15px;
+    }
+    .header-search{
+    	display: block;
+    	margin-left: 0px;
+    	margin-top: 15px;
+    }
+    .main-list li a {
+    	width: 165px;
+    	font-size: 14px;
+    	height: 130px;
+    	padding-left: 5px;
+    	padding-right: 5px;
+	}
+	.home-category-head .col-lg-9{
+		padding-left: 15px;
+	}
+	.home-category-sidebar{
+		margin-bottom: 20px;
+	}
+	.why-home-top p{
+		font-size: 18px;
+		line-height: 1.4;
+		padding-bottom: 20px;
+	}
+	#free-games-back h2, .answer-back h2, .player-bonus h2, #how h2, .five-things h2, #kind h2, .why-home-main h2, .item-casino-txt h2 {
+    	font-size: 27px;
+	}
+	.why-home-main-item{
+		padding: 0px 10px;
+		margin-bottom: 30px;
+	}
+	.why-home-main-item h4{
+		padding: 0px;
+		line-height: 1.4;
+	}
+	.why-home-main-item p {
+    	line-height: 1.3;
+    	font-size: 16px;
+	}
+	.why-home{
+		padding-bottom: 40px;
+	}
+	.why-home-main h2{
+		margin-bottom: 50px;
+	}
+	#kind h2+p{
+		font-size: 18px;
+	}
+	.one-style h3:after, .two-style h3:after{
+		display: none;
+	}
+	.kind-rating-item-txt{
+		margin-bottom: 20px;
+		min-height: inherit;
+	}
+	#kind h2{
+		margin-bottom: 15px;
+	}
+	.kind-rating-top{
+		margin-bottom: 30px;
+	}
+	.five-things h2{
+		margin-top: 40px;
+	    margin-bottom: 45px;	
+	}
+	.five-things-item-number{
+		display: none;
+	}
+	.five-things-txt {
+    	padding-left: 0px;
+	}
+	.five-things-item{
+		padding: 15px;
+	}
+	.five-things-txt h3{
+		font-size: 24px;
+		padding-top: 10px;
+	}
+	.hide-things{
+		margin-left: 0;
+		margin-bottom: 15px;
+		display: inline-block;
+	}
+	#how{
+		min-height: inherit;
+		padding-bottom: 50px;
+	}
+	.player-bonus-link{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	#answer{
+		padding-top: 20px;
+	}
+	.footer-bottom-1, .footer-bottom-2, .footer-bottom-3, .footer-bottom-4{
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.footer-bottom-flex{
+		flex-wrap: wrap;
+	}
+	footer{
+		margin-top: 0px;
+		padding-bottom: 30px;
+	}
+	.logo-footer{
+		padding-top: 40px;
+	}
+	.logo-footer{
+		text-align: center;
+	}
+	.spam-footer{
+		margin-left: 0px;
+		margin: 0 auto;
+		float: none;
+		max-width: 350px;
+		width: 100%;
+	}
+	footer h4{
+		text-align: center;
+		padding-top: 20px;
+	}
+	.soc-footer{
+		padding-top: 15px;
+	}
+	.soc-footer{
+		text-align: center;
+	}
+	.soc-footer-link a{
+		margin: 0px 5px;
+	}
+	.free-games-blo {
+    	max-width: 130px;
+	}
+	.free-games-blo h4{
+		font-size: 14px;
+	}
+	#free-games-back{
+		padding-bottom: 50px;
+	}
+	.header-navig{
+		padding-top: 0px;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.container {
+	    max-width: 540px;
+	}
+	.main-list li a:before{
+		display: none;
+	}
+	.main-list li a {
+	    padding: 10px 5px;
+	    height: auto;
+	    font-size: 16px;
+	    margin: 5px 7px;
+	}
+	.main-list{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.home-category-top p{
+		font-size: 16px;
+	}
+	.header-main h1{
+		font-size: 24px;
+	}
+	.item-casino{
+		flex-wrap: wrap;
+		height: auto;
+		flex-direction: column;
+	}
+	.why-home-top p{
+		font-size: 16px;
+	}
+	.item-casino-txt{
+		width: 100%;
+	}
+	.item-casino-txt:after{
+		display: none;
+	}
+	.item-casino-pay-link a:nth-of-type(1), .item-casino-pay-link a:nth-of-type(2) {
+    	width: 150px;
+	}
+	.item-casino-txt ul{
+		min-height: inherit;
+		padding-bottom: 10px;
+	}
+	.item-casino-pay{
+		width: 100%;
+	}
+	.item-casino-pa-bottom h4{
+		padding-top: 20px;
+	}
+	.item-casino-pa-bottom{
+		padding-bottom: 20px;
+	}
+	.item-casino-pa-bottom-flex{
+		max-width: 280px;
+	}
+	.item-casino-pay{
+		margin-top: 10px;
+	}
+	.item-casino-img{
+		width: 100%;
+	}
+	.item-casino-img {
+    	width: 65%;
+	}
+	.why-home-main-item {
+    	width: calc(100%/2);
+	}
+	#free-games-back h2, .answer-back h2, .player-bonus h2, #how h2, .five-things h2, #kind h2, .why-home-main h2, .item-casino-txt h2 {
+    	font-size: 24px;
+	}
+	.why-home-main h2:after{
+		display: none;
+	}
+	.why-home-main h2{
+		margin-bottom: 25px;
+	}
+	#time-home h2 {
+    	font-size: 50px;
+	}
+	#time-home{
+		min-height: inherit;
+		padding: 70px 0px;
+		padding-top: 0px;
+	}
+	.kind-rating-top p {
+    	font-size: 27px;
+	}
+	.five-things h2:after{
+		display: none;
+	}
+	.five-things h2{
+		margin-bottom: 30px;
+	}
+	.player-bonus h2:after{
+		display: none;
+	}
+	.player-bonus h2{
+		margin-bottom: 0px;
+		padding-top: 50px;
+	}
+	.player-bonus-title{
+		font-size: 21px;
+	}
+	.player-bonus-item-txt h3, .player-bonus-item h4, .player-bonus-item p {
+    	font-size: 18px;
+	}
+	.answer-back h2:after{
+		display: none;
+	}
+	.answer-back h2{
+		margin-bottom: 20px;
+		padding-top: 30px;
+	}
+	#accordion .ui-accordion-header{
+		font-size: 18px;
+	}
+	.free-games-blo {
+    	max-width: 158px;
+    	margin: 10px 5px;
+	}
+	.free-games-item-flex{
+		justify-content: center;
+	}
+	.free-games-item h3{
+		text-align: center;
+		font-size: 18px;
+	}
+	#kind h2:after{
+		display: none;
+	}
+	#how h2:after{
+		display: none;
+	}
+	#free-games-back h2:after{
+		display: none;
+	}
+	.home-category-sidebar h3{
+		height: 55px;
+		font-size: 21px;
+		line-height: 55px;
+	}
+}	
+
+@media only screen and (max-width : 550px) {
+	.kind-rating-item h3{
+		font-size: 21px;
+		height: 65px;
+		line-height: 72px;
+	}
+	.kind-rating-item-txt{
+		padding-left: 60px;
+	}
+	.kind-rating-item-txt li:before{
+		left: -51px;
+	}
+	.five-things h2 br{
+		display: none;
+	}
+	.five-things h2 {
+    	margin-bottom: 10px;
+	}
+	.five-things-txt h3{
+		font-size: 21px;
+	}
+	#kind h2{
+		padding-bottom: 0px;
+	}
+	.kind-rating-item-txt li {
+    	font-size: 16px;
+    	line-height: 1.3;
+	}
+	.item-casino-img{
+		width: 100%;
+		max-width: 330px;
+	}
+	#honesty-home{
+		padding-top: 50px;
+	}
+	#time-home h2+p{
+		padding-bottom: 20px;
+	}
+	.item-casino-pay-link a:nth-of-type(1), .item-casino-pay-link a:nth-of-type(2) {
+	    width: 200px;
+	    margin-bottom: 10px;
+	}
+	.home-category-main-top-right p{
+		margin-right: 10px;
+		font-size: 16px;
+	}
+	#time-home h2{
+		font-size: 41px;
+	}
+	.home-category-main-top-right select{
+		width: 170px;
+	}
+	.why-home-main-item{
+	    width: calc(100%/1);
+	    padding: 0px;	
+	}
+	.player-bonus-item{
+		flex-direction: column;
+		height: auto;
+		padding-bottom: 15px;
+	}
+	.player-bonus-item-txt{
+		padding-right: 0px;
+		padding-left: 15px;
+	}
+	#free-games-back h2{
+		margin-bottom: 70px;
+	}
+	.free-games-slider .slick-prev, .free-games-slider .slick-next{
+		top: -59px;
+	}
+	#how h3{
+		text-align: center;
+		padding-left: 0px;
+	}
+	.why-home-main-img{
+		margin-bottom: 20px;
+	}
+	#free-games-back h2, .answer-back h2, .player-bonus h2, #how h2, .five-things h2, #kind h2, .why-home-main h2, .item-casino-txt h2 {
+    	font-size: 21px;
+	}
+	.why-home {
+    	padding-bottom: 30px;
+	}
+	#honesty-home p {
+    	font-size: 16px;
+    	line-height: 1.4;
+    	padding-bottom: 15px;
+	}
+	#honesty-home h3{
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+	#kind h2{
+		margin-top: 50px;
+	}
+	#honesty-home{
+		padding-bottom: 35px;
+	}
+	.kind-rating-top p{
+		font-size: 21px;
+	}
+	.kind-rating-top{
+		padding: 15px;
+	}
+	.how-slider .slick-prev{
+		left: 0px;
+	}
+	.how-slider .slick-next{
+		right: 0px;
+	}
+	 #how h2{
+	 	padding-bottom: 0px;
+	 }
+	 .logo-footer img{
+	 	max-width: 100%;
+	 }
+	 .footer-bottom-1, .footer-bottom-3{
+	 	padding-right: 10px;
+	 }
+	 #accordion .ui-accordion-header{
+	 	padding: 15px;
+	 	font-size: 16px;
+	 	font-weight: 400;
+	 	padding-right: 30px;
+	 }
+	 .ui-accordion-header:after{
+	 	right: 12px;
+	 }
+	 #accordion .ui-accordion-content{
+	 	padding: 15px;
+	 	font-size: 14px;
+	 }
+}
+@media only screen and (max-width : 480px) {
+}
+
+@media only screen and (max-width : 370px) {
+
+}
