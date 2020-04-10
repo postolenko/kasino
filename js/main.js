@@ -1,3 +1,6 @@
+var parentBlock, dropdownBlock;
+var title;
+
 $(document).ready(function() {
 $( ".tabs-category" ).tabs();
 $( ".tabs-category_2" ).tabs();
@@ -39,7 +42,6 @@ $('.free-games-slider').slick({
   slidesToScroll: 1
 });
 
-var title;
 $('.home-category-sidebar-item').each(function() {
   title = $(this).children("h4");
   if(title.hasClass("direct3")) {
@@ -61,9 +63,6 @@ $('.hide-things').click(function(e){
   $('.hide-things').html('ПОДРОБНЕЕ');
   $('.direct2').html('СКРЫТЬ');
 });
-
-
-
 
 
     $(function(){
@@ -91,11 +90,7 @@ $('.hide-things').click(function(e){
 
    })();
 
-
-
    // ------------
-
-   var parentBlock, dropdownBlock;
 
    $(".dropdown_item").each(function() {
       dropdownBlock = $(this).find(".dropdown_item_content");
@@ -118,7 +113,5 @@ $('.hide-things').click(function(e){
         parentBlock.addClass("active");
       }
    });
-
-
     
 });
