@@ -113,5 +113,51 @@ $('.hide-things').click(function(e){
         parentBlock.addClass("active");
       }
    });
+
+   $("input[type='tel']").mask("+3 (999) 999-99-99");
+
+
+
+   var handle, minRange, maxRange, uiCorner, slider, inputVal;
+
+   $(".rangeSlider").each(function() {
+
+      parentBlock = $(this).closest(".range_slider_wrapp");
+      handle = parentBlock.find(".rangeVal");
+      minRange = parseInt( parentBlock.find("[data-minrange]").attr("data-minrange") );
+      maxRange = parseInt( parentBlock.find("[data-maxrange]").attr("data-maxrange") );
+      console.log(minRange +"   "+maxRange);
+      slider = $( this ).slider({
+        create: function() {
+          uiCorner = $( this ).find(".ui-corner-all");
+          uiCorner.append("<span class='rangeValCursor'></span>");
+          handle.val( $( this ).slider( "value" ) );
+          uiCorner.find(".rangeValCursor").html($( this ).slider( "value" ) + " ₴");
+        },
+        slide: function( event, ui ) {
+          handle.val( ui.value );
+          uiCorner.find(".rangeValCursor").html($( this ).slider( "value" ) + " ₴");
+        },
+        min: minRange,
+        max: maxRange
+      });
+      handle.on("keyup", function() {
+        inputVal = $(this).val();
+        if(inputVal < minRange) {
+          $(this).val(minRange);
+          inputVal = minRange;
+        }
+        if(inputVal > maxRange) {
+          $(this).val(maxRange);
+          inputVal = maxRange;
+        }
+        slider.slider( "value", inputVal );
+        uiCorner.find(".rangeValCursor").html(inputVal + " ₴");
+        console.log(inputVal);
+      });
+
+   });
+
+
     
 });
