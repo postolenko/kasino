@@ -424,7 +424,8 @@ header{
 	padding-bottom: 19px;
 }
 .home-category-top p{
-	font-size: 24px;
+	/*font-size: 22px;*/
+	font-size: 20px;
 	margin-bottom: 7px;
 }
 .home-category-main-top{
@@ -488,6 +489,10 @@ header{
     position: absolute;
     right: 10px;
     top: -2px;
+    transform: rotate(180deg);
+}
+.home-category-sidebar-item h4.direct3:after{
+    transform: rotate(0);
 }
 
 .check-container {
@@ -1602,7 +1607,7 @@ header{
 
 .dropdown_item_title {
 	position: relative;
-	padding: 0 15px 0 15px;
+	padding: 0 40px 0 15px;
 }
 
 .dropdown_btn {
@@ -1681,7 +1686,6 @@ header{
 }
 
 .dropdown_item_content {
-	display: none;
 	padding: 12px 55px 0 45px;
 }
 
@@ -1696,15 +1700,49 @@ header{
 	color: #000000;
 }
 
+.dropdown_item_content ul li {
+	list-style: none;
+}
+
+.dropdown_item_content ul li a {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+	-webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dropdown_item_content ul li a:hover {
+	color: #F5001F;
+}
+
 .inner_page_title {
-	padding: 6px 0;
+	padding: 15px 0;
 	border-bottom: 4px solid #F5001F;
 }
 
 .inner_page_title h2 {
 	font-weight: 500;
-	font-size: 36px;
-	line-height: 150%;
+	font-size: 33px;
+	line-height: 138%;
 }
 
 .article_tags {
@@ -1732,6 +1770,10 @@ header{
 	position: absolute;
     top: 9px;
 	right: 0;
+}
+
+.article_tags p:last-child:before {
+	display: none;
 }
 
 .article {
@@ -1816,7 +1858,7 @@ header{
 	background-image: url(../images/share_bg.jpg);
 	background-position: center;
 	background-size: cover;
-	padding: 17px 0 1px 0;
+	padding: 17px 10px 1px 10px;
 	text-align: center;
 }
 
@@ -2032,7 +2074,8 @@ header{
 
 .complaint .descript h3 {
 	font-weight: 500;
-	font-size: 36px;
+	/*font-size: 36px;*/
+	font-size: 33px;
 	line-height: 150%;
 }
 
@@ -2047,12 +2090,12 @@ header{
 }
 
 .complaint_footer .col_1 {
-	width: 45%;
+	width: 48%;
 	padding-right: 5px;
 }
 
 .complaint_footer .col_2 {
-	width: 55%;
+	width: 52%;
 	padding-left: 5px;
 	text-align: right;
 }
@@ -2084,12 +2127,13 @@ header{
 }
 
 .reputation_text {
+	width: calc(100% - 65px);
 	padding-left: 15px;
 }
 
 .reputation_text p {
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 150%;
 	color: #FF0000;
 }
@@ -2108,7 +2152,8 @@ header{
 
 .status p {
 	font-weight: 500;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 22px;
 	line-height: 150%;
 	color: #000000;
 }
@@ -2154,6 +2199,8 @@ header{
 .bonuce {
 	display: flex;
 	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 	margin-bottom: 10px;
 	background: #FBFBFB;
 	-webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
@@ -2192,7 +2239,7 @@ header{
 
 .bonuce .col_2 {
 	width: calc(100% - 514px);
-	padding-left: 20px;
+	padding: 0 0 15px 20px;
 }
 
 .bonuce .col_3 {
@@ -2380,14 +2427,16 @@ header{
 .home-category-top ul li {
 	list-style: none;
 	font-weight: 500;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 20px;
 	line-height: 200%;
 	color: #000000;
 }
 
 .home-category-top ul li a {
 	font-weight: 500;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 20px;
 	line-height: 100%;
 	text-decoration-line: underline;
 	color: #F5001F;
@@ -2440,7 +2489,7 @@ header{
 	justify-content: center;
 	-webkit-justify-content: center;
 	opacity: 0;
-	padding: 10px 0 21px 0;
+	padding: 10px 15px 21px 15px;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -2477,7 +2526,8 @@ header{
 .casino_thumb .mask h3 {
 	padding-bottom: 13px;
 	font-weight: 500;
-	font-size: 48px;
+	/*font-size: 48px;*/
+	font-size: 44px;
 	line-height: 150%;
 	color: #FFFFFF;
 }
@@ -2492,7 +2542,8 @@ header{
 
 .casino_thumb .mask_text_footer p {
 	font-weight: 500;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 20px;
 	line-height: 150%;
 	color: #FFFFFF;
 }
@@ -2502,7 +2553,8 @@ header{
 }
 
 .article_2 h3 {
-	padding: 10px 0 16px 0;
+	/*padding: 10px 0 16px 0;*/
+	padding: 10px 0 13px 0;
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 28px;
@@ -2517,9 +2569,13 @@ header{
 }
 
 .article_2 p {
-	padding: 12px 0;
+/*	padding: 12px 0;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 18px;*/
+	/*padding: 12px 0;*/
+	padding: 10px 0;
+	font-weight: normal;
+	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
 }
@@ -2530,7 +2586,8 @@ header{
 
 .article_2 a {
 	font-weight: normal;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
 }
@@ -2548,11 +2605,13 @@ header{
 }
 
 .article_2 ol li {
-	margin: 10px 0;
+	/*margin: 10px 0;*/
+	margin: 8px 0;
 	list-style: none;
 	position: relative;
 	font-weight: normal;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
 }
@@ -2574,11 +2633,13 @@ header{
 }
 
 .article_2 ul li {
-	margin: 22px 0;
+	/*margin: 22px 0;*/
+	margin: 18px 0;
 	list-style: none;
 	position: relative;
 	font-weight: normal;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
 }
@@ -2616,8 +2677,11 @@ header{
 	display: -webkit-flex;
 	align-items: center;
 	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
 	min-height: 216px;
-	padding: 10px 17px;
+	/*padding: 10px 17px;*/
+	padding: 10px 40px;
 	outline: 1px solid red;
 	text-align: center;
 	-webkit-transition-property: background;
@@ -2658,10 +2722,10 @@ header{
 }
 
 .tabs_links .p_1 {
-	padding: 12px 0;
+	padding: 10px 0;
 	font-weight: normal;
-	font-size: 36px;
-	line-height: 42px;
+	font-size: 26px;
+	line-height: 33px;
 	color: #000000;
 	-webkit-transition-property: color;
     -webkit-transition-duration: .3s;
@@ -2907,9 +2971,6 @@ footer h4{
 }
 .home-category-head .col-lg-9{
 	padding-left: 0px;
-}
-.direct3:after{
-    transform: rotate(180deg);	
 }
 .colapse-menu-button{
 	display: none;

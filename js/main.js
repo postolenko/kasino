@@ -39,6 +39,16 @@ $('.free-games-slider').slick({
   slidesToScroll: 1
 });
 
+var title;
+$('.home-category-sidebar-item').each(function() {
+  title = $(this).children("h4");
+  if(title.hasClass("direct3")) {
+    title.next().css({
+      "display" : "none"
+    });
+  }
+});
+
 $('.home-category-sidebar-item h4').click(function(){
   $(this).next().slideToggle( "slow" );
   $(this).toggleClass( "direct3" );
@@ -84,6 +94,17 @@ $('.hide-things').click(function(e){
 
 
    // ------------
+
+   var parentBlock, dropdownBlock;
+
+   $(".dropdown_item").each(function() {
+      dropdownBlock = $(this).find(".dropdown_item_content");
+      if(!$(this).hasClass("active")) {
+        dropdownBlock.css({
+          "display" : "none"
+        });
+      }
+   });
 
    $(".dropdown_item .dropdown_btn").on("click", function(e) {
       e.preventDefault();

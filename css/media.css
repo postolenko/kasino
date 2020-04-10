@@ -103,6 +103,12 @@
 	.kind-rating-top{
 		width: 100%;
 	}
+	.reputation_text p {
+	    font-size: 20px;
+	}
+	.status p {
+	    font-size: 20px;
+	}
 }
 @media only screen and (max-width : 1199px) {
 	.container {
@@ -217,6 +223,95 @@
 	.item-casino-img-txt div {
     	font-size: 34px;
     	padding-top: 5px;
+	}
+	.bonuce .col_1 {
+	    width: 100%;
+	}
+	.bonuce .col_2 {
+	    width: calc(100% - 194px);
+	    padding: 0 20px 15px 20px;
+	}
+	.bonuce .col_3 {
+		padding-bottom: 15px;
+	}
+	.bonuce_title {
+	    padding: 15px 0;
+	}
+	.text_wrapp {
+	    padding: 15px 10% 15px 10%;
+	}
+	.casino_thumb {
+	    width: calc(50% - 16px);
+	}
+	.casino_thumb .mask h3 {
+	    padding-bottom: 10px;
+	    font-size: 37px;
+	}
+	.complaint_left {
+	    width: 330px;
+	}
+	.complaint_right {
+	    width: calc(100% - 330px);
+	}
+	.complaint_left .icon_box {
+	    margin: 30px 0;
+	}
+	.complaint .descript {
+	    padding-top: 18px;
+	}
+	.complaint .descript h3 {
+	    font-size: 25px;
+	}
+	.complaint_footer {
+	    padding: 10px 0;
+	}
+	.complaint_footer .col_1 {
+	    width: 100%;
+	    padding: 5px 0;
+	}
+	.complaint_footer .col_2 {
+	    width: 100%;
+	    padding: 5px 0;
+	    text-align: left;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.two_cols_templ {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+	.left_col {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.right_col {
+	    width: 100%;
+	    padding-left: 0;
+	}
+	.dropdown_item {
+	    padding: 20px 0;
+	}
+	.tab_links li a {
+	    font-size: 18px;
+	    line-height: 143%;
+	}
+	.complaints_templ_footer {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+	.complaints_templ_footer .left_col {
+	    width: 100%;
+	    padding: 5px 0;
+	    text-align: center;
+	}
+	.complaints_templ_footer .right_col {
+	    width: 100%;
+	    padding: 5px 0;
+	    text-align: center;
+	}
+	.complaints_templ_footer .navi-category-page-main {
+	    padding-bottom: 0;
 	}
 }	
 
@@ -428,6 +523,44 @@
 	.header-navig{
 		padding-top: 0px;
 	}
+	.header-main ul li {
+	    font-size: 16px;
+	}
+	.header-main ul li::before {
+	    top: 3px;
+	}
+	.tabs_links .p_1 {
+	    padding: 10px 0;
+	    font-size: 23px;
+	    line-height: 27px;
+	}
+	.tabs_links .small {
+	    padding: 5px 0;
+	}
+	.tab_links {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+	.tab_links li {
+	    width: 50%;
+	}
+	.complaint {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+	.complaint_left {
+	    width: 100%;
+	}
+	.complaint_right {
+	    width: 100%;
+	    padding: 10px 15px;
+	}
+	.complaint_left .icon_box {
+	    margin: 17px 0;
+	}
+	.complaint_left {
+	    padding: 20px 10px 33px 10px;
+	}
 }
 @media only screen and (max-width : 767px) {
 	.container {
@@ -571,6 +704,62 @@
 		font-size: 21px;
 		line-height: 55px;
 	}
+	.inner_page_title h2 {
+	    font-size: 27px;
+	}
+	.article h3 {
+		padding-bottom: 10px;
+	    font-size: 21px;
+	    line-height: 130%;
+	}
+	.article p {
+	    padding: 10px 0;
+	}
+	.video_frame {
+	    height: 250px;
+	}
+	.casino_thumb .img_box {
+	    height: 250px;
+	}
+	.casino_thumb .mask h3 {
+	    padding-bottom: 5px;
+	    font-size: 33px;
+	    line-height: 115%;
+	}
+	.casino_thumb .mask .red_pill {
+	    font-size: 14px;
+	    padding: 9px 10px 8px 10px;
+	}
+	.casino_thumb .mask_text_footer p {
+	    font-size: 17px;
+	}
+	.contacts_tabs {
+	    margin: 25px 0;
+	}
+	.tabs_links {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+	.tabs_links li {
+	    width: 100%;
+	}
+	.tabs_links li a {
+	    min-height: auto;
+	}
+	.form_wrapp {
+	    padding: 25px 25px 5px 25px;
+	}
+	.form_wrapp h2 {
+	    font-size: 25px;
+	    line-height: 36px;
+	}
+	.form {
+	    margin: 10px 0;
+	}
+	.input_wrapp {
+	    width: 100%;
+	    margin: 9px 0;
+	}
 }	
 
 @media only screen and (max-width : 550px) {
@@ -706,8 +895,93 @@
 	 	padding: 15px;
 	 	font-size: 14px;
 	 }
+	.inner_page_title h2 {
+	    font-size: 21px;
+	}
+	.article_tags p {
+	    padding: 2px 5px;
+	}
+	.video_frame {
+	    height: 250px;
+	}
+	.bonuce .col_2 {
+	    width: 100%;
+	}
+	.bonuce .col_3 {
+	    width: 100%;
+	}
+	.text_wrapp {
+	    padding: 5px 20px;
+	}
+	.bonuce_title h2 {
+	    font-size: 22px;
+	    line-height: 125%;
+	}
+	.complaint .descript .small {
+	    font-size: 21px;
+	}
+	.complaint .descript h3 {
+	    font-size: 22px;
+	}
+	.reputation_text p {
+	    font-size: 19px;
+	}
+	.status p {
+	    font-size: 17px;
+	}
 }
 @media only screen and (max-width : 480px) {
+
+	.black_link {
+	    font-size: 13px;
+	    line-height: 13px;
+	}
+	.nav_link_wrapp p {
+	    font-size: 12px;
+	}
+	.btns_mask {
+	    padding: 10px 10%;
+	}
+	.btns_mask p {
+	    font-size: 16px;
+	}
+	.home-category-top ul {
+	    padding: 11px 0;
+	}
+	.home-category-top ul li {
+		padding: 5px 0;
+	    font-size: 16px;
+	    line-height: 140%;
+	}
+	.home-category-top ul li a {
+	    font-size: 16px;
+	}
+	.casino_thumbnails {
+	    margin: 0 0 20px 0;
+	}
+	.casino_thumb {
+	    width: 100%;
+	}
+	.article_2 h3 {
+	    font-size: 20px;
+	}
+	.article_2 ol li::before {
+	    margin: 0 7px 0 15px;
+	}
+	.article_2 ul li::before {
+	    margin: 0 7px 0 15px;
+	}
+	.article_2 ul li {
+	    margin: 7px 0;
+	}
+	.dropdown_item .dropdown_btn {
+	    right: 15px;
+	}
+	.tab_links li {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
 }
 
 @media only screen and (max-width : 370px) {
