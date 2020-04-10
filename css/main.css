@@ -450,7 +450,6 @@ header{
 	padding-bottom: 19px;
 }
 .home-category-top p{
-	/*font-size: 22px;*/
 	font-size: 20px;
 	margin-bottom: 7px;
 }
@@ -801,9 +800,6 @@ header{
 }
 .item-casino-pay-list-one li.l_yes:before{
 	content: url('../images/yes-ico.png');
-}
-.item-casino-pay-list-one li:nth-of-type(1):before{
-	
 }
 .item-casino-pay-list-two h4{
 	font-size: 12px;
@@ -1872,14 +1868,6 @@ header{
 	color: #000000;
 }
 
-.prev_link {
-
-}
-
-.next_link {
-
-}
-
 .share_wrapp {
 	background-image: url(../images/share_bg.jpg);
 	background-position: center;
@@ -1920,15 +1908,9 @@ header{
 	display: block;
 }
 
-.share_list li a img {
-
-}
-
 .tab_links {
 	display: flex;
 	display: -webkit-flex;
-	/*flex-wrap: wrap;*/
-	/*-webkit-flex-wrap: wrap;*/
 	justify-content: space-between;
 }
 
@@ -1999,10 +1981,6 @@ header{
 	left: 5px;
 }
 
-.complaints_templ {
-
-}
-
 .complaint {
 	display: flex;
 	display: -webkit-flex;
@@ -2059,10 +2037,6 @@ header{
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-}
-
-.complaint_left {
-
 }
 
 .complaint_left p {
@@ -2171,13 +2145,8 @@ header{
 	color: #CAC208;
 }
 
-.status {
-
-}
-
 .status p {
 	font-weight: 500;
-	/*font-size: 24px;*/
 	font-size: 22px;
 	line-height: 150%;
 	color: #000000;
@@ -2433,10 +2402,6 @@ header{
 	color: #F5001F;
 }
 
-.home-category-top {
-
-}
-
 .top_2 {
 	padding-top: 32px;
 }
@@ -2452,7 +2417,6 @@ header{
 .home-category-top ul li {
 	list-style: none;
 	font-weight: 500;
-	/*font-size: 24px;*/
 	font-size: 20px;
 	line-height: 200%;
 	color: #000000;
@@ -2460,7 +2424,6 @@ header{
 
 .home-category-top ul li a {
 	font-weight: 500;
-	/*font-size: 24px;*/
 	font-size: 20px;
 	line-height: 100%;
 	text-decoration-line: underline;
@@ -2551,7 +2514,6 @@ header{
 .casino_thumb .mask h3 {
 	padding-bottom: 13px;
 	font-weight: 500;
-	/*font-size: 48px;*/
 	font-size: 44px;
 	line-height: 150%;
 	color: #FFFFFF;
@@ -2561,13 +2523,8 @@ header{
 	margin-bottom: 16px;
 }
 
-.casino_thumb .mask .thumb_text {
-
-}
-
 .casino_thumb .mask_text_footer p {
 	font-weight: 500;
-	/*font-size: 24px;*/
 	font-size: 20px;
 	line-height: 150%;
 	color: #FFFFFF;
@@ -2578,7 +2535,6 @@ header{
 }
 
 .article_2 h3 {
-	/*padding: 10px 0 16px 0;*/
 	padding: 10px 0 13px 0;
 	font-weight: 500;
 	font-size: 24px;
@@ -2594,10 +2550,6 @@ header{
 }
 
 .article_2 p {
-/*	padding: 12px 0;
-	font-weight: normal;
-	font-size: 18px;*/
-	/*padding: 12px 0;*/
 	padding: 10px 0;
 	font-weight: normal;
 	font-size: 16px;
@@ -2611,7 +2563,6 @@ header{
 
 .article_2 a {
 	font-weight: normal;
-	/*font-size: 18px;*/
 	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
@@ -2625,17 +2576,11 @@ header{
 	padding-top: 1px;
 }
 
-.article_2 ol {
-	
-}
-
 .article_2 ol li {
-	/*margin: 10px 0;*/
 	margin: 8px 0;
 	list-style: none;
 	position: relative;
 	font-weight: normal;
-	/*font-size: 18px;*/
 	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
@@ -2653,17 +2598,11 @@ header{
 	background-color: #000000;
 }
 
-.article_2 ul {
-	
-}
-
 .article_2 ul li {
-	/*margin: 22px 0;*/
 	margin: 18px 0;
 	list-style: none;
 	position: relative;
 	font-weight: normal;
-	/*font-size: 18px;*/
 	font-size: 16px;
 	line-height: 130%;
 	color: #000000;
@@ -2705,7 +2644,6 @@ header{
 	justify-content: center;
 	-webkit-justify-content: center;
 	min-height: 216px;
-	/*padding: 10px 17px;*/
 	padding: 10px 40px;
 	outline: 1px solid red;
 	text-align: center;
@@ -2736,14 +2674,6 @@ header{
 
 .tabs_links li.ui-tabs-active a {
 	background-color: #F5001F;
-}
-
-.tabs_links li a div:nth-child(1) {
-
-}
-
-.tabs_links li a div:nth-child(2) {
-
 }
 
 .tabs_links .p_1 {
@@ -2908,8 +2838,6 @@ header{
 	margin: 6px 0 19px 0;
 }
 
-
-
 .footer-bottom-flex h4{
 	font-size: 24px;
 	font-weight: 500;
@@ -3008,23 +2936,6 @@ footer h4{
 	right: 0px;
 	padding: 20px 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .pol-popup{
 	width: 750px;
