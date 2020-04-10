@@ -389,8 +389,10 @@
     	margin-left: 0px;
     	margin-top: 15px;
     }
+    .main-list li {
+    	padding: 5px;
+    }
     .main-list li a {
-    	width: 165px;
     	font-size: 14px;
     	height: 130px;
     	padding-left: 5px;
@@ -569,6 +571,9 @@
 	.container {
 	    max-width: 540px;
 	}
+	.main-list li {
+		width: 50%;
+	}
 	.main-list li a:before{
 		display: none;
 	}
@@ -576,7 +581,6 @@
 	    padding: 10px 5px;
 	    height: auto;
 	    font-size: 16px;
-	    margin: 5px 7px;
 	}
 	.main-list{
 		justify-content: center;
