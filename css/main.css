@@ -852,6 +852,9 @@ header{
 .navi-category-page-main a:hover{
 	color:#F5001F;
 }
+.navi-category-page-main a.active{
+	color:#F5001F;
+}
 .more-item{
 	display: inline-block;
 	background: #F5001F;
