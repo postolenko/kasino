@@ -3063,4 +3063,8 @@ input {
     -moz-appearance
 }
 
+.ui-corner-all {
+	outline: none;
+}
+
 /*-- /Range Slider --*/
