@@ -450,7 +450,7 @@ header{
 	padding-bottom: 19px;
 }
 .home-category-top p{
-	font-size: 20px;
+	font-size: 16px;
 	margin-bottom: 7px;
 }
 .home-category-main-top{
@@ -900,9 +900,9 @@ header{
 	padding-bottom: 25px;
 }
 .why-home-top p{
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.5;
-	padding-bottom: 30px;
+	padding-bottom: 18px;
 }
 .why-home-top{
 	text-align: center;
@@ -998,9 +998,9 @@ header{
     padding-bottom: 16px;	
 }
 #honesty-home p{
-	font-size: 18px;
-    padding-bottom: 32px;
-    line-height: 1.5;	
+	font-size: 16px;
+	padding-bottom: 20px;
+	line-height: 1.5;	
 }
 #honesty-home h3{
 	color:#F5001F;
@@ -1478,11 +1478,10 @@ header{
 }
 #accordion .ui-accordion-content{
 	background: #fff;
-	font-size: 18px;
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	font-size: 16px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
 	line-height: 1.5;
-	padding: 30px; 
-	padding-top: 30px;	
+	padding: 30px;
 	padding-bottom: 5px;
 }
 
@@ -1819,7 +1818,7 @@ header{
 .article p {
 	padding: 15px 0;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 150%;
 	color: #000000;
 }
@@ -2020,8 +2019,8 @@ header{
 }
 
 .complaint_left .icon_box {
-	height: 120px;
-	margin: 57px 0;
+	height: 100px;
+	margin: 30px 0;
 	position: relative;
 }
 
@@ -2067,14 +2066,14 @@ header{
 .complaint .descript .small {
 	padding: 2px 0;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 150%;
 	color: #000000;
 }
 
 .complaint .descript h3 {
 	font-weight: 500;
-	font-size: 33px;
+	font-size: 28px;
 	line-height: 150%;
 }
 
@@ -2132,7 +2131,7 @@ header{
 
 .reputation_text p {
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 19px;
 	line-height: 150%;
 	color: #FF0000;
 }
@@ -2147,7 +2146,7 @@ header{
 
 .status p {
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 19px;
 	line-height: 150%;
 	color: #000000;
 }
@@ -2417,14 +2416,14 @@ header{
 .home-category-top ul li {
 	list-style: none;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 200%;
 	color: #000000;
 }
 
 .home-category-top ul li a {
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 100%;
 	text-decoration-line: underline;
 	color: #F5001F;
@@ -2599,7 +2598,7 @@ header{
 }
 
 .article_2 ul li {
-	margin: 18px 0;
+	margin: 14px 0;
 	list-style: none;
 	position: relative;
 	font-weight: normal;
@@ -2643,7 +2642,7 @@ header{
 	-webkit-align-items: center;
 	justify-content: center;
 	-webkit-justify-content: center;
-	min-height: 216px;
+	min-height: 185px;
 	padding: 10px 40px;
 	outline: 1px solid red;
 	text-align: center;
@@ -2679,8 +2678,8 @@ header{
 .tabs_links .p_1 {
 	padding: 10px 0;
 	font-weight: normal;
-	font-size: 26px;
-	line-height: 33px;
+	font-size: 23px;
+	line-height: 28px;
 	color: #000000;
 	-webkit-transition-property: color;
     -webkit-transition-duration: .3s;
