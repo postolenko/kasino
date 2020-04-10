@@ -370,6 +370,7 @@ header{
 .main-list li{
 	display: flex;
 	display: -webkit-flex;
+	min-width: 225px;
 	outline: none;
 }
 .main-list li:nth-of-type(1) a:before{
