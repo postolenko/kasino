@@ -981,6 +981,9 @@
 	    width: 100%;
 	    padding: 10px 0;
 	}
+	.submit_wrapp .red_pill {
+	    min-width: 200px;
+	}
 
 }
 
